@@ -1,101 +1,40 @@
-# GovKPIPro
+# 🚀 GovKPIPro
 
-A lightweight admin dashboard / KPI analytics front-end scaffold built with Vite, React, TypeScript and shadcn/ui components.
-
-## Project summary
-
-This repository contains the front-end for GovKPIPro — a KPI/dashboard web app built using Vite + React + TypeScript and a component set based on shadcn/ui and Radix UI primitives.
-
-The project is scaffolded for fast local development and production builds using Vite.
-
-## Tech stack
-
-- Vite
-- React
-- TypeScript
-- Tailwind CSS
-- shadcn / Radix UI components
-- ESLint for linting
-
-## Prerequisites
-
-- Node.js (recommended 18.x or newer)
-- npm (or a compatible package manager)
-
-Note: I inferred Node 18+ as a safe default for modern Vite + React projects. If your environment requires a different version, adjust accordingly.
-
-## Install
-
-Open a terminal in the project root and run:
-
-```powershell
-npm install
-```
-
-This will install dependencies listed in `package.json`.
-
-## Available scripts
-
-The following npm scripts are defined in `package.json` and can be run from the project root.
-
-- `npm run dev` — start the Vite development server
-- `npm run build` — build production assets with Vite
-- `npm run build:dev` — build with the `development` mode
-- `npm run preview` — preview the production build locally
-- `npm run lint` — run ESLint over the project
-
-Example (start dev server):
-
-```powershell
-npm run dev
-```
-
-## Project structure (important files/folders)
-
-- `src/` — main TypeScript/React source for the app
-  - `main.tsx`, `App.tsx` — app entry
-  - `components/` — reusable UI pieces and shadcn wrappers
-  - `pages/` — top-level pages (Dashboard, KPI, Reports, etc.)
-- `frontend/` — (included folder) contains an additional small frontend subtree
-- `public/` — static assets served by Vite
-- `package.json` — scripts and dependencies
-- `vite.config.ts` — Vite configuration
-- `tailwind.config.ts` — Tailwind configuration
-
-Note: The repo includes many shadcn-style components under `src/components/ui/` that provide the design system primitives.
-
-## Linting
-
-Run ESLint using:
-
-```powershell
-npm run lint
-```
-
-If you use an editor with ESLint integration, enable it for quicker feedback while you code.
-
-## Contributing
-
-Everyone is welcome to contribute. A minimal workflow:
-
-1. Fork the repository
-2. Create a topic branch (feature/my-feature)
-3. Add tests or basic manual verification steps for your changes
-4. Open a pull request with a clear description of the change
-
-If you plan to refactor or change build tooling, mention it in the PR description so reviewers can validate the steps.
-
-## Notes & next steps
-
-- There is no `LICENSE` file in the repository. Add one if you want to publish this project with a clear license (for example, `MIT`).
-- If you want a setup script or recommended Node version, consider adding an `.nvmrc` or `engines` in `package.json`.
+A lightweight admin dashboard / KPI analytics front-end scaffold built with **Vite, React, TypeScript**, and **shadcn/ui components**.
 
 ---
 
-If you want, I can also:
+## 🌐 Project Summary
 
-- Add a minimal `CONTRIBUTING.md` with PR guidelines
-- Add a `LICENSE` file (MIT or other)
-- Add quick start screenshots and a demo GIF to the README
+This repository contains the front-end for **GovKPIPro** — a KPI/dashboard web app built using **Vite + React + TypeScript** and a component set based on **shadcn/ui** and **Radix UI** primitives.  
 
+The project is scaffolded for fast local development and production builds using **Vite**.
 
+---
+
+## 🛠️ Tech Stack
+
+- **Vite**  
+- **React**  
+- **TypeScript**  
+- **Tailwind CSS**  
+- **shadcn / Radix UI components**  
+- **ESLint** for linting  
+
+---
+
+## ⚙️ Prerequisites
+
+- **Node.js** (recommended 18.x or newer)  
+- **npm** (or a compatible package manager)  
+
+> Note: Adjust Node version if your environment requires it.
+
+---
+
+## 📥 Installation
+
+Open a terminal in the project root and run:
+
+```bash
+npm install
