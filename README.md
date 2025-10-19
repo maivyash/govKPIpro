@@ -28,7 +28,25 @@ The project is scaffolded for fast local development and production builds using
 - **Node.js** (recommended 18.x or newer)  
 - **npm** (or a compatible package manager)  
 
-> Note: Adjust Node version if your environment requires it.
+---
+
+## 📁 Project Structure
+
+```plaintext
+GovKPIPro/
+│
+├─ src/                 # Main TypeScript/React source
+│   ├─ main.tsx         # App entry
+│   ├─ App.tsx          # Main App component
+│   ├─ components/      # Reusable UI components
+│   └─ pages/           # Top-level pages (Dashboard, KPI, Reports)
+│
+├─ frontend/            # Additional frontend subtree
+├─ public/              # Static assets served by Vite
+├─ package.json         # Scripts and dependencies
+├─ vite.config.ts       # Vite configuration
+└─ tailwind.config.ts   # Tailwind configuration
+
 
 ---
 
@@ -38,3 +56,4 @@ Open a terminal in the project root and run:
 
 ```bash
 npm install
+npm run dev
