@@ -50,7 +50,7 @@ GovKPIPro/
 
 
 
-## 📥 Installation
+## 📥 Installation & Run
 
 Open a terminal in the project root and run:
 
